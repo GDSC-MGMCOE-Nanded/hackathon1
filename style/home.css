@@ -1,0 +1,66 @@
+#home{
+    margin-top: -105px;
+   width: 100%;
+    height: 100vh;
+    background: url("../img/home.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home .container{
+    background: linear-gradient(rgba(0, 0, 0, 0.137),black);
+    padding: 5% 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* opacity: 0; */
+    /* position: relative; */
+}
+
+
+
+#home .container .main{
+    text-align: center;
+    color: white;
+    background: none;
+}
+
+#home .container .main h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+    background: none;
+}
+
+/* h2 */
+#home .container .main h2{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    background: none;
+}
+
+/* a */
+#home .container .main a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all ease 0.9s;
+}
+
+/* a:hover */
+
+#home .container .main a:hover{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+}
+
