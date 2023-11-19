@@ -1,0 +1,111 @@
+#about{
+    background: #000000;
+    background: url("../img/about1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    filter: blur(-1px);
+}
+
+#about .container{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.137), black); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#about .container .about,.about-gdsc{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    /* background: none; */
+    background: #000000b3;
+    padding: 5% 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+#about .container .about h1,
+#about .container .about-gdsc h1
+{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+    background: none;
+}
+
+/* h1 span */
+
+#about .container .about h1 span,
+#about .container .about-gdsc h1 span
+{
+    color: #a79373;
+    text-decoration: underline;
+}
+
+/* p */
+#about .container .about p,
+#about .container .about-gdsc p
+{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    background: none;
+    width: 70%;
+    text-align: justify;
+}
+
+/* make responsive */
+
+@media screen and (max-width: 768px) {
+    #about .container {
+        flex-direction: column;
+    }
+
+    #about .container .about,.about-gdsc{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about .container .about p,
+    #about .container .about-gdsc p
+    {
+        width: 90%;
+    }
+
+    #about .container .about h1,
+    #about .container .about-gdsc h1
+    {
+        font-size: 30px;
+    }
+
+    #about .container .about h1 span,
+    #about .container .about-gdsc h1 span
+    {
+        font-size: 20px;
+    }
+
+    #about .container .about p,
+    #about .container .about-gdsc p
+    {
+        font-size: 15px;
+    }
+
+}
