@@ -4,7 +4,7 @@
     width: 100%;
     box-shadow: 0 4px 20px hsla(207, 24%, 35%, 0.1);
     /* background:none; */
-    background-color: #15141880;
+    background-color: #00000080;
     z-index: 1;
     border-bottom: 1px solid rgb(160, 150, 150);
     backdrop-filter: blur(4px);
